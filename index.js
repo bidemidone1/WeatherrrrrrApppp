@@ -4,12 +4,12 @@ const locationButton = document.querySelector(".location-btn");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const weatherCardsDiv = document.querySelector(".weather-cards");
 const errorDisplay = document.querySelector(".error_text");
-// const daysOfWeek = [
-//     'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
-//   ];
 const daysOfWeek = [
-    'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
+    'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
   ];
+// const daysOfWeek = [
+//     'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
+//   ];
 
      const now = new Date();
      const dayOfWeek = daysOfWeek[now.getDay()];
